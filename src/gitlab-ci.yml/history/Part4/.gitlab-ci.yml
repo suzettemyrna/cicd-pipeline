@@ -28,4 +28,3 @@ tests_job:
     - cd ../grep && make test
   dependencies:
     - build_job
-    - stylecheck_job
