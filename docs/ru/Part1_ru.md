@@ -6,7 +6,7 @@
 
 Для выполнения проекта была создана виртуальная машина с `Ubuntu Server 22.04 LTS`.
 
-![Ubuntu Server 22.04](images/part1/1.png)
+![Ubuntu Server 22.04](../../images/part1/1.png)
 
 ---
 
@@ -55,7 +55,7 @@ shell
 
 Процесс регистрации показан на скриншоте ниже.
 
-![Регистрация GitLab Runner](images/part1/2.png)
+![Регистрация GitLab Runner](../../images/part1/2.png)
 
 ---
 
