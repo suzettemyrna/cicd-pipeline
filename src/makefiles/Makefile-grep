@@ -1,0 +1,30 @@
+all: clean s21_grep
+
+s21_grep: main.o memory.o parsing.o searchprinting.o
+	gcc -Wall -Werror -Wextra main.o memory.o parsing.o searchprinting.o -o s21_grep
+
+main.o: main.c header.h
+	gcc -c main.c -o main.o
+
+memory.o: memory.c header.h
+	gcc -c memory.c -o memory.o
+
+parsing.o: parsing.c header.h
+	gcc -c parsing.c -o parsing.o
+
+searching&printing.o: searchprinting.c header.h
+	gcc -c searchprinting.c -o searchprinting.o
+
+nice:
+	cp ../../materials/linters/.clang-format .
+	clang-format -i *.c *.h
+
+check:
+	cp ../../materials/linters/.clang-format .
+	clang-format -n *.c *.h
+	
+test:
+	bash s21_grep_test.sh || true
+
+clean:
+	rm -rf *.o *.log s21_grep .clang-format

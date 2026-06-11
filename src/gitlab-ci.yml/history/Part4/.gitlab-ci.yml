@@ -1,0 +1,31 @@
+stages:
+  - build
+  - stylecheck
+  - tests
+
+build_job:
+  stage: build
+  script:
+    - cd src/cat && make
+    - cd ../grep && make
+  artifacts:
+    paths:
+      - src/cat/s21_cat
+      - src/grep/s21_grep
+    expire_in: 30 days
+
+stylecheck_job:
+  stage: stylecheck
+  script:
+    - clang-format --version
+    - cd src/cat && clang-format -style=Google -n -Werror *.c *.h
+    - cd ../grep && clang-format -style=Google -n -Werror *.c *.h
+
+tests_job:
+  stage: tests
+  script:
+    - cd src/cat && make test
+    - cd ../grep && make test
+  dependencies:
+    - build_job
+    - stylecheck_job

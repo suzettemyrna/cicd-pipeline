@@ -1,0 +1,18 @@
+all: clean s21_cat
+
+s21_cat:
+	gcc -Wall -Werror -Wextra main.c parsing.c printing.c -o s21_cat
+
+nice:
+	cp ../../materials/linters/.clang-format .
+	clang-format -i *.c *.h
+
+check:
+	cp ../../materials/linters/.clang-format .
+	clang-format -n *.c *.h
+	
+test:
+	bash s21_cat_test.sh || true
+
+clean:
+	rm -rf s21_cat .clang-format *.log
