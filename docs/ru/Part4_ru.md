@@ -39,7 +39,7 @@
 
 > `Makefile` проектов: [/src/makefiles/](../../src/makefiles/)
 
-Успешное прохождения всех этапов pipeline.
+Успешное прохождения всех этапов pipeline:
 
 ![tests success](../../images/part4/7.png)
 ![tests success](../../images/part4/8.png)
