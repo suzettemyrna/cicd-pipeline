@@ -39,7 +39,7 @@
 * [Part 1](docs/ru/Part1_ru.md) — Настройка GitLab Runner
 * [Part 2](docs/ru/Part2_ru.md) — Сборка проекта и артефакты
 * [Part 3](docs/ru/Part3_ru.md) — Проверка кодстайла
-* [Part 4](docs/ru/Part4_ru.md) — Интеграционные тесты
+* [Part 4](docs/ru/Part4_ru.md) — Запуск тестов
 * [Part 5](docs/ru/Part5_ru.md) — Автоматический деплой
 * [Part 6](docs/ru/Part6_ru.md) — Telegram-уведомления
 
