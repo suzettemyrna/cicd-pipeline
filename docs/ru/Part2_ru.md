@@ -52,7 +52,7 @@ src/.gitlab-ci.yml
 * сохранение полученных исполняемых файлов в качестве артефактов;
 * хранение артефактов в течение 30 дней.
 
-> Файл `.gitlab-ci.yml`, использованный в этой части: [/src/history/Part2/.gitlab-ci.yml](../../src/history/Part2/.gitlab-ci.yml)
+> Файл `.gitlab-ci.yml`, использованный в этой части: [/src/history/Part2/.gitlab-ci.yml](../../src/gitlab-ci.yml/history/Part2/.gitlab-ci.yml)
 
 ---
 
