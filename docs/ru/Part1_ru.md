@@ -4,7 +4,7 @@
 
 ## 1.1. Подготовка виртуальной машины
 
-Для выполнения проекта была создана виртуальная машина с `Ubuntu Server 22.04 LTS`.
+Для выполнения проекта создана виртуальная машина с `Ubuntu Server 22.04 LTS`.
 
 ![Ubuntu Server 22.04](../../images/part1/1.png)
 
@@ -25,7 +25,8 @@
 Запустим скрипт:
 
 ```bash
-bash install_gitlabrunner.sh
+sudo chmod +x install_gitlabrunner.sh
+sudo bash install_gitlabrunner.sh
 ```
 
 ---
@@ -62,5 +63,13 @@ shell
 ## Итог
 
 На виртуальной машине установлен и запущен GitLab Runner, зарегистрированный для проекта DO6_CICD с использованием shell executor.
+
+---
+
+## Навигация
+
+↑ [README_ru](../../README_ru.md)
+
+→ [Part 2. Сборка](Part2_ru.md)
 
 ---
