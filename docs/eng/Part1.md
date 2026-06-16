@@ -65,3 +65,11 @@ The registration process is shown below.
 GitLab Runner was installed and started on the virtual machine, then registered for the DO6_CICD project using the shell executor.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+→ [Part 2. Build](Part2.md)
+
+---
