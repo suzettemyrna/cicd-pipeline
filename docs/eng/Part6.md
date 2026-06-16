@@ -86,6 +86,6 @@ Telegram notifications were configured for GitLab CI/CD to report the execution 
 
 ↑ [README](../../README.md)
 
-← [Part 5. Deployment Stage](Part5_ru.md)
+← [Part 5. Deployment Stage](Part5.md)
 
 ---
