@@ -47,3 +47,13 @@ Example of a formatting error causing the pipeline to fail:
 A code style check stage using `clang-format` was added to the pipeline. If formatting violations are detected, the pipeline terminates with an error.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+← [Part 2. Build](Part2.md)
+
+→ [Part 4. Tests](Part4.md)
+
+---
