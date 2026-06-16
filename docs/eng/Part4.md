@@ -53,3 +53,13 @@ Successful execution of all pipeline stages:
 A testing stage dependent on the build and code style check stages was added to the CI pipeline.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+← [Part 3. Code Style Check](Part3.md)
+
+→ [Part 5. Deployment Stage](Part5.md)
+
+---
