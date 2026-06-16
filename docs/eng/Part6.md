@@ -81,3 +81,11 @@ After starting the pipeline, the bot begins receiving notifications about the ex
 Telegram notifications were configured for GitLab CI/CD to report the execution status of pipeline stages.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+← [Part 5. Deployment Stage](Part5_ru.md)
+
+---
