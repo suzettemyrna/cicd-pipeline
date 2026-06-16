@@ -73,3 +73,13 @@ After committing the changes, GitLab automatically starts the pipeline.
 A GitLab CI build stage was configured to build the applications via Makefiles and store the resulting executables as artifacts for 30 days.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+← [Part 1. GitLab Runner Setup](Part1.md)
+
+→ [Part 3. Code Style Check](Part3.md)
+
+---
