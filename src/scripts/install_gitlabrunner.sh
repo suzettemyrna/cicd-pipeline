@@ -1,7 +1,8 @@
 #!/bin/bash
-# Script to install and configure GitLab Runner on Ubuntu 22.04 LTS
 
-# Variables for GitLab instance URL and registration token
+# Install and configure GitLab Runner on Ubuntu 22.04 LTS
+
+# GitLab instance settings
 GITLAB_URL="..."
 GITLAB_TOKEN="..."
 
@@ -45,13 +46,6 @@ check_gitlab_runner_status() {
     sudo gitlab-runner status
 }
 
-update_gitlab_runner() {
-    echo "Updating GitLab Runner..."
-    sudo apt-get update
-    sudo apt-get install -y gitlab-runner
-    echo "GitLab Runner updated."
-}
-
 echo "Installing and configuring GitLab Runner on Ubuntu 22.04 LTS"
 add_gitlab_runner_repo
 install_gitlab_runner
@@ -60,4 +54,3 @@ start_gitlab_runner
 check_gitlab_runner_status
 
 echo "GitLab Runner installation and configuration complete."
-
