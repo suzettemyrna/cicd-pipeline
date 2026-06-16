@@ -177,3 +177,13 @@ After that, the artifacts are successfully copied to the `/usr/local/bin` direct
 A deployment stage was configured to transfer build artifacts to a remote virtual machine over SSH.
 
 ---
+
+## Navigation
+
+↑ [README](../../README.md)
+
+← [Part 4. Tests](Part4.md)
+
+→ [Part 6. Telegram Notifications](Part6.md)
+
+---
